@@ -6,5 +6,5 @@ services:
     ports:
       - "8005:80"
     volumes:
-      - ./:/usr/local/apache2/htdocs
+      - ./mainwebsite:/usr/local/apache2/htdocs
     restart: always
